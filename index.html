@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Tarea</title>
+</head>
+
+<body>
+    <div id="Main">
+        <h1>Tarea Formulario</h1>
+        <fieldset>
+            <form class="contact_form" action="#" id="contact_form" runat="server">
+
+                <div id="contenedor">
+                    <label class="label" for="txtNombre">Nombre</label>
+                    <input type="text" id="txtNombre" class="Input" placeholder="&nbsp;" required />
+                </div>
+
+                <div id="contenedor">
+                    <label class="label" for="txtUsuario">Usuario</label>
+                    <input type="text" id="txtUsuario" class="Input" placeholder="&nbsp;" required />
+                </div>
+
+                <div id="contenedor">
+                    <label class="label" for="txtContrasenna">Contraseña</label>
+                    <input type="password" id="txtContrasenna" class="Input" placeholder="&nbsp;" required />
+                </div>
+
+
+                <div id="contenedor">
+                    <label class="label" for="txtId">Identificación</label>
+                    <input type="text" id="txtId" class="Input" placeholder="&nbsp;" required />
+                </div>
+
+
+                <div id="contenedor">
+                    <label class="label" for="txtEmail">Email</label>
+                    <input type="email" id="txtEmail" class="Input" placeholder="&nbsp;" required />
+                </div>
+
+
+                <div id="contenedor">
+                    <label class="label" for="txtDireccion">Dirección</label>
+                    <input type="text" id="txtDireccion" class="Input" placeholder="&nbsp;" />
+                </div>
+
+                <div>
+                    <button class="boton" type="submit" id="btnRegistrarse">Registrarse</button>
+                </div>
+
+                <div>
+                    <button class="boton" type="reset" id="btnLimpiar">Limpiar</button>
+                </div>
+
+            </form>
+        </fieldset>
+    </div>
+</body>
+<script src="Script.js" type="text/javascript"></script>
+
+</html>

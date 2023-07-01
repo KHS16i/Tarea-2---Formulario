@@ -1,0 +1,110 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    background: url('img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Microsoft JhengHei UI';
+}
+
+h1 {
+    text-align: center;
+}
+
+#Main {
+    width: 500px;
+    margin: auto;
+}
+
+fieldset {
+    border-radius: 10px;
+    font-size: 11px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+    color: rgb(77, 77, 77);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: margin .25s;
+}
+
+fieldset:hover {
+    margin: -.1%;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    margin-top: 3em;
+    margin-left: 2em;
+    font-size: 13px;
+    color: black;
+}
+
+input {
+    border-radius: 5px;
+    background:
+        linear-gradient(90deg, #222, #222) center bottom/0 0.15em no-repeat,
+        linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
+        linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+    border: 0;
+    margin-left: 2em;
+    margin-top: .5em;
+    width: 66%;
+    height: 30px;
+    font-family: 'Microsoft JhengHei UI';
+    font-size:medium;
+    font-weight: bold;
+}
+
+input.dirty,
+input:not(:placeholder-shown),
+input:focus {
+    background-size: 100% 0.15em, 100% 0.1em, 100%;
+}
+
+
+#btnRegistrarse {
+    margin-top: 4em;
+    margin-bottom: .8em;
+    width: 200px;
+}
+
+#btnLimpiar {
+    margin-bottom: 2em;
+    width: 200px;
+}
+
+input:focus{
+    outline: none;
+    font-size: large;
+}
+
+button {
+    margin-left: 140px;
+    font-family: 'Microsoft JhengHei UI';
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #5c5c5c;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: #333333
+}
+
+button:active {
+    background-color: #333333;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
